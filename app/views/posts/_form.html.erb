@@ -13,20 +13,20 @@
 
   <div>
     <%= form.label :tiltle, style: "display: block" %>
-    <%= form.text_field :tiltle %>
+    <%= form.text_field :tiltle, class: "form-control" %>
   </div>
 
   <div>
     <%= form.label :description, style: "display: block" %>
-    <%= form.text_field :description %>
+    <%= form.text_field :description, class: "form-control"  %>
   </div>
 
   <div>
     <%= form.label :keywords, style: "display: block" %>
-    <%= form.text_field :keywords %>
+    <%= form.text_field :keywords, class: "form-control"  %>
   </div>
 
   <div>
-    <%= form.submit %>
+    <%= form.submit class: "btn btn-primary col-12" %>
   </div>
 <% end %>
